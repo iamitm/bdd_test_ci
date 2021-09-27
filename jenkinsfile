@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Get Code') {
       steps {
-        git(url: 'https://github.paypal.com/amitmishra/bdd_ci_test.git', branch: 'master')
+        git(url: 'https://github.com/iamitm/bdd_test_ci.git', branch: 'master')
       }
     }
   }
